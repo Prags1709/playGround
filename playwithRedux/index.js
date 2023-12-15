@@ -45,3 +45,9 @@ store.dispatch(addTodo("Attryb"))
 store.dispatch(addTodo("indi.gg"))
 
 console.log(store.getState());
+
+
+//git stash
+
+let name = "prags"
+console.log('name:', name)
