@@ -2,6 +2,8 @@
 
 //Action type
 export const ADD_COUNT = "ADD_COUNT"
+export const ADD_TODO = "ADD_TODO"
+export const DELETE_TODO = "DELETE_TODO"
 
 //Action creator ===> this function for re-useability
 export const addCount = (data)=>{
@@ -10,3 +12,18 @@ export const addCount = (data)=>{
         payload: data
     }
 }
+
+export const addTodo = (data)=>{
+    return {
+        type: ADD_TODO,
+        payload: data
+    }
+}
+
+export const deleteTodo = (data)=>{
+    return {
+        type: DELETE_TODO,
+        payload: data
+    }
+}
+

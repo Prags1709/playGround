@@ -5,6 +5,7 @@ import './App.css'
 import { store } from './redux/store'
 import { Counter } from './components/counter'
 import { Todo } from './components/todo'
+import { AddTotoInput } from './components/addTodoInput'
 function App() {
   
   return (
@@ -13,6 +14,7 @@ function App() {
         <Counter/>
       </div> 
       <hr />
+        <AddTotoInput />
         <Todo />
     </>
   )
